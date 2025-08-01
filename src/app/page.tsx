@@ -87,12 +87,12 @@ export default function HomePage() {
                         {title}
                       </h3>
                       <p className="text-sm text-gray-500 mb-4 line-clamp-3">{excerpt}</p>
-                      <a
-                        href={`/blog/${slug}`}
+                      <h5
+                        
                         className="inline-block text-blue-600 hover:underline font-medium text-sm"
                       >
-                        Read More →
-                      </a>
+                      michael      .  4 min Read 
+                      </h5> 
                     </div>
                   </div>
                 );
